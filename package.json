@@ -1,19 +1,20 @@
 {
-  "name": "vuepress",
+  "name": "vuepress-starter",
   "version": "1.0.0",
-  "repository": "https://github.com/capriosa/vuepress-deploy",
-  "description": "Starter template for a VuePress site",
-  "author": "Meinolf Droste <mdwp.post@gmail.com>",
-  "license": "MIT",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^0.6.0"
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-social-share": "^1.0.0"
   },
   "dependencies": {
-    "eslint": "^4.19.1",
-    "npm": "^6.14.6"
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1"
   }
 }
